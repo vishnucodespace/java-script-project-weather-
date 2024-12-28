@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <script src="weather.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <video id="backgroundVideo" autoplay loop muted>
+            <source id="videoSource" src="default.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="weather-container">
+            <h1 id="weatherCondition">Weather Condition</h1>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="feelsLike"></p>
+            <p id="humidity"></p>
+            <p id="windSpeed"></p>
+            <p id="pressure"></p>
+            <p id="visibility"></p>
+            <p id="sunrise"></p>
+            <p id="sunset"></p>
+        </div>
+    </div>
+</body>
+</html>

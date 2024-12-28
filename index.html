@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    
+    <div class="video-background">
+        <video autoplay loop muted id="background-video">
+            <source src="https://videos.pexels.com/video-files/7944943/7944943-sd_960_506_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h1 class = "heading">Know Weather</h1>
+        <div class="movingcity"> <div><label for ="city">City Name:</label>
+            
+         <input type ="text"id="city" name="city" ></div>
+         <div>
+         <button class="button-" role="button" onclick="toweather()">know weather</button>
+         </div>
+        </div>
+        
+        <div>
+           <p id="joke"></p>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
